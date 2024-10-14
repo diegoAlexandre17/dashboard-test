@@ -2,89 +2,97 @@
   font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: #0B144F ;
+  color: #0b144f;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-body{
+body {
   width: 80%;
   margin: auto;
 }
 
-.d-flex{
+.d-flex {
   display: flex;
 }
 
-.flex-column{
+.flex-column {
   flex-direction: column;
 }
 
-.align-items-center{
+.align-items-center {
   align-items: center;
 }
 
-.text-end{
+.text-end {
   text-align: end;
 }
 
-.justify-content-between{
+.justify-content-between {
   justify-content: space-between;
 }
 
-.gap-1{
+.gap-1 {
   gap: 1rem;
 }
 
-.gap-2{
+.gap-2 {
   gap: 2rem;
 }
 
-.me-1{
+.me-1 {
   margin-right: 1rem;
 }
 
-.mt-1{
+.mt-1 {
   margin-top: 1rem;
 }
 
-.w-100{
+.w-100 {
   width: 100%;
 }
 
-.fw-bold{
+.fw-bold {
   font-weight: bold;
 }
 
-.text-color{
-  color: #0B144F;
+.text-color {
+  color: #0b144f;
 }
 
-.mx-0{
+.mx-0 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.mx-1{
+.mx-1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-
-@media screen and (max-width: 780px) {
-  .flex-column-responsive{
-    flex-direction: column;
-  }
-
-  .text-center-responsive{
-    text-align: center;
-  }
-
-  .flex-reverse{
-    flex-direction: column-reverse;
-  }
+.iframe{
+  max-width: 100%;
+  width: 600px;
+  height: 450px;
 }
 
 
+.box-shadow-card {
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.17);
+}
+
+@media screen and (max-width: 780px) {
+  .flex-column-responsive {
+    flex-direction: column;
+  }
+
+  .text-center-responsive {
+    text-align: center;
+  }
+
+  .flex-reverse {
+    flex-direction: column-reverse;
+  }
+}
