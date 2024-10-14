@@ -117,8 +117,8 @@ body {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 430px) {
   .width-chart {
-    width: 320px;
+    width: 350px;
   }
 }
