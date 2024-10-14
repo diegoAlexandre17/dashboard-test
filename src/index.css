@@ -101,6 +101,10 @@ body {
   .flex-reverse {
     flex-direction: column-reverse;
   }
+
+  .text-center-responsive{
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 1024px) {

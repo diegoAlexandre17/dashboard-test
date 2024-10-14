@@ -34,7 +34,7 @@ const DonutChart = ({ title, labels, colors, series }) => {
         sx={{ backgroundColor: "#FAFAFA" }}
       >
         <CardContent>
-          <Typography>{title}</Typography>
+          <Typography className="text-center-responsive">{title}</Typography>
           <Chart options={options} series={series} type="donut" width="450" />
         </CardContent>
       </Card>
