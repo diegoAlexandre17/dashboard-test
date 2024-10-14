@@ -89,6 +89,10 @@ body {
   box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.17);
 }
 
+.width-chart{
+  width: 450px;
+}
+
 @media screen and (max-width: 780px) {
   .flex-column-responsive {
     flex-direction: column;
@@ -104,6 +108,10 @@ body {
 
   .text-center-responsive{
     text-align: center;
+  }
+
+  .width-chart{
+    width: 320px;
   }
 }
 

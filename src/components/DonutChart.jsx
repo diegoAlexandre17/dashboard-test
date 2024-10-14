@@ -35,7 +35,7 @@ const DonutChart = ({ title, labels, colors, series }) => {
       >
         <CardContent>
           <Typography className="text-center-responsive">{title}</Typography>
-          <Chart options={options} series={series} type="donut" width="450" />
+          <Chart options={options} series={series} type="donut" className='width-chart' />
         </CardContent>
       </Card>
     </div>
