@@ -76,12 +76,12 @@ body {
   margin-bottom: 1rem;
 }
 
-.iframe{
+.iframe {
   width: 600px;
   height: 450px;
 }
 
-.h-100{
+.h-100 {
   height: 100%;
 }
 
@@ -89,7 +89,7 @@ body {
   box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.17);
 }
 
-.width-chart{
+.width-chart {
   width: 450px;
 }
 
@@ -106,12 +106,8 @@ body {
     flex-direction: column-reverse;
   }
 
-  .text-center-responsive{
+  .text-center-responsive {
     text-align: center;
-  }
-
-  .width-chart{
-    width: 320px;
   }
 }
 
@@ -119,7 +115,10 @@ body {
   .flex-column-responsive-principal {
     flex-direction: column;
   }
-
 }
 
-
+@media screen and (max-width: 375px) {
+  .width-chart {
+    width: 320px;
+  }
+}
