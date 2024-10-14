@@ -9,7 +9,7 @@ const HeaderInfo = () => {
         <h3 className="me-2 mx-0">
           Campo 1 <FontAwesomeIcon icon={faCopy} />
         </h3>
-        <Chip label="Ok" color="success" />
+        <Chip label="Ok" color="success" sx={{color: '#ffff'}}/>
 
         <Chip label="Total de granos: 200 (ton)" variant="outlined" />
       </div>
