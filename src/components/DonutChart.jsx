@@ -1,4 +1,4 @@
-import { Card, CardContent, Typography } from "@mui/material";
+import { Card, CardContent, Chip, Typography } from "@mui/material";
 
 import Chart from "react-apexcharts";
 
@@ -17,19 +17,24 @@ const DonutChart = () => {
         },
       },
     },
-    legend:{
-        show:true,
-        fontFamily: 'Poppins, Helvetica, Arial',
-        fontWeight: 600,
-        offsetY: 80,
-        offsetX: 10,
-    }
+    legend: {
+      show: true,
+      fontFamily: "Poppins, Helvetica, Arial",
+      fontWeight: 600,
+      offsetY: 80,
+      offsetX: 10,
+    },
   };
 
   const series = [44, 55, 41, 17];
 
   return (
-    <div>
+    <div className="d-flex flex-column justify-content-between h-100">
+      <div className="mx-1">
+        <Chip label="Total de silobolsas: 9" variant="outlined"  className="me-1"/>
+        <Chip label="Asegurados: 5" color="success" />
+      </div>
+
       <Card
         variant="outlined"
         className="box-shadow-card"
@@ -37,7 +42,7 @@ const DonutChart = () => {
       >
         <CardContent>
           <Typography>Estatus silobolsas</Typography>
-          <Chart options={options} series={series} type="donut" width="450" />
+          <Chart options={options} series={series} type="donut"  width="450" />
         </CardContent>
       </Card>
     </div>

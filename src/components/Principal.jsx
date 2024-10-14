@@ -3,7 +3,7 @@ import Map from "./Map";
 
 const Principal = () => {
   return (
-    <div className="d-flex justify-content-between flex-column-responsive">
+    <div className="d-flex justify-content-between flex-column-responsive-principal gap-1">
       <div>
         <DonutChart />
       </div>

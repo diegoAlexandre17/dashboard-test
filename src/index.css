@@ -34,6 +34,10 @@ body {
   justify-content: space-between;
 }
 
+.justify-content-center {
+  justify-content: center;
+}
+
 .gap-1 {
   gap: 1rem;
 }
@@ -73,11 +77,13 @@ body {
 }
 
 .iframe{
-  max-width: 100%;
   width: 600px;
   height: 450px;
 }
 
+.h-100{
+  height: 100%;
+}
 
 .box-shadow-card {
   box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.17);
@@ -96,3 +102,12 @@ body {
     flex-direction: column-reverse;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .flex-column-responsive-principal {
+    flex-direction: column;
+  }
+
+}
+
+
