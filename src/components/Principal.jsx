@@ -5,7 +5,7 @@ import Map from "./Map";
 const Principal = () => {
   return (
     <div className="d-flex justify-content-between flex-column-responsive-principal gap-1">
-      <div className="d-flex flex-column justify-content-between align-items-center h-100">
+      <div className="d-flex flex-column justify-content-between h-100">
         <div className="mx-1">
           <Chip
             label="Total de silobolsas: 9"
